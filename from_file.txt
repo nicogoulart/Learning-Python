@@ -1,0 +1,5 @@
+This will be copied to another file.
+Yes, I am learning that now.
+Python is cool.
+Gonna be the best programmer ever.
+Oh yeah! :)

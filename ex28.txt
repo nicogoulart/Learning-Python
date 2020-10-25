@@ -1,0 +1,110 @@
+1. True and True
+True
+
+2. False and True
+False
+
+3. 1 == 1 and 2 == 1
+1 == 1 True
+2 == 1 False
+True and False
+False
+
+4. "test" == "test"
+True
+
+5. 1 == 1 or 2 != 1
+1 == 1 True
+2 != 1 True
+True or True
+True
+
+6. True and 1 == 1
+1 == 1 True
+True and True
+True
+
+7. False and 0 != 0
+0 != 0 False
+False and False
+False
+
+8. True or 1 == 1
+1 == 1 True
+True or True
+True
+
+9. "test" == "testing"
+False
+
+10. 1 != 0 and 2 == 1
+1 != 0 True
+2 == 1 False
+True and False
+False
+
+11. "test" != "testing"
+True
+
+12. "test" == 1
+False
+
+13. not (True and False)
+(True and False) False
+not False
+True
+
+14. not (1 == 1 and 0 != 1)
+1 == 1 True
+0 != 1 True
+(True and True) True
+not True
+False
+
+15. not (10 == 1 or 1000 == 1000)
+10 == 1 False
+1000 == 1000 True
+(False or True) True
+not True
+False
+
+16. not (1 != 10 or 3 == 4)
+1 != 10 True
+3 == 4 False
+(True or False) True
+not True
+False
+
+17. not ("testing" == "testing" and "Zed" == "Cool Guy")
+"testing" == "testing" True
+"Zed" == "Cool Guy" False
+(True and False) False
+not False
+True
+
+18. 1 == 1 and (not ("testing" == 1 or 1 == 0))
+1 == 1 True
+"testing" == 1 False
+1 == 0 False
+(False or False) False
+(not False) True
+(True and True) 
+True
+
+19. "chunky" == "bacon" and (not (3 == 4 or 3 == 3))
+"chunky" == "bacon" False
+3 == 4 False
+3 == 3 True
+(False or True) True
+(not True) False
+False and False
+False
+
+20. 3 == 3 and (not ("testing" == "testing" or "Python" == "Fun"))
+3 == 3 True
+"testing" == "testing" True
+"Python" == "Fun" False
+(True or False) True
+(not True) False
+True and False
+False
